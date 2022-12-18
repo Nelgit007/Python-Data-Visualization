@@ -1,0 +1,49 @@
+DATA VISUALIZATION PLAN
+-Exploring data through visual representation
+-Explorong patterns and connections in data set.
+
+-We can analizy numerical and non-numerical data.
+This includes the use of differnet libarries.
+1. Matplotlib: A mathematical library
+2. Plotly: Create the visualzation on digital devises and resizes to fit screen
+
+###
+cd in data-visualization and install: python -m pip install --user matplotlib 
+####
+
+Adjusting the plat to be clearer
+Step 1: Chart title and label axis, adjust line width
+
+NB: When we gove plot a sequence of numbers it assumes that the first data points correspnds to an (x,x) value (0) but cases where the (x,x) value is one is output an incorrect response. Thus overwrite defautlt by specifying some input value
+
+Step 2:
+Styling our plots
+--inside python --import matplotlib.pyploy as plt -plt.style.available
+
+Step 3: Adding color
+c=(0, 0.8, 0.5) or c='Gree'
+
+Using a color map;
+
+		EXR2
+Create a random_walk program from the random module. 
+In order to visualize write a python program using the matplotlib.pyplot
+
+---Create emphasis on the map, where the walk began and where it ends, paths. Use a cmap for emphasis on specified areas.
+
+First: Generate a range for the diff points. 
+
+--Highlighting starting and ening point of our random_walk chart.
+(make end points larger, and more visble)
+
+--Remove axis from plot, and show the outcome.
+--Increase the number of walks. use the RandonWalk class.
+--Automatically adjust screen size as walk increases. Introduce figsize into the subplot().
+-Add a resolution (dpi) to the above.
+
+
+
+ 
+
+
+
