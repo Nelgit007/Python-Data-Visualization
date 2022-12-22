@@ -42,8 +42,37 @@ First: Generate a range for the diff points.
 -Add a resolution (dpi) to the above.
 
 
+		PROJECT 2
+This invlves visualizing data from data-sets provided.(Chap. 16). Data is in csv and JSON format.
 
- 
+We use the python csv module which is a standard library that passes a line in a csv files allow us to quickly extract valyues.
+
+NB: What is important to our project is Date of Recod, TMAX, TMIN.
+--Print oue each header and its position on the list. BY looping over the index, and column_header; This will output the above for use.
+--Now that you have info on the exct index for each colum header, iterate over for high temp.
+--Visualize the resule
+
+Exr 2
+Adding date to graph.
+In the file date is represented in a string, we must read the date in as a string and need an module to convert it into an object representing the date that can be used in our plot	.  To achieve we need a method from the "datetime" module.
+
+--from datetime import datetime
+--Specify date eg:
+first_date = datetime.strptime('2018-07-01', '%Y-%m-%d')
+print(first_date)
+
+--Add the lows to see the new chart look. Then tone down the color.
+--Add an averge of the plot, but first add an (alpha value) for transparency of each graph and a (fill_between).
+
+NB: MIssing data can cause exceptions that may lead ourprogram to CRASH.
+-Use the try except error handling to resolve error.
+
+
+
+
+
+
+
 
 
 
