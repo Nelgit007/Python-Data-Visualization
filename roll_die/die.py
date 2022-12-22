@@ -1,5 +1,6 @@
 from random import randint
 
+
 class Die:
 	"""A class to represent a single die"""
 
