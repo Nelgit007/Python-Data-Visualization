@@ -20,7 +20,7 @@ with open(filename) as f:
 # Plot high Temperatures
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
-ax.plot(dates, highs, c='red')
+ax.plot(dates, highs, c='green')
 
 # Set Chart Title and Label Axis
 ax.set_title("Daily High Temperatures for the year 2018", fontsize=24)
