@@ -1,0 +1,62 @@
+		Data Visualization
+Generating data visualization based on data retrieved from a web API.
+The programme wil use a web API to automatically retrieve specific information from a website rather than the entire pages, then use the info to generate visualization. This kind if program will always use current data to generate visuaization, even when he data might rapidly change, it will always update.
+
+-Tools:
+Using a web API to retrieve data from data sources (github)
+
+Project:
+-Use a web API to get the data in TheAlgorithm/Python,  from the various project that exist in the repo from gitHub.
+- Sort each python project based in the number of stars, and use the data to display the moset popular python repo on gitHub.  As new repo are replased or mor stars are beeing add to the repos the underline data will chGE nd the [rogram will use same API and wiol dynamically undate the chart./
+
+AN API CALL;
+loooking at waht an API call on githun looks like;
+[api.github.com]
+An API Call itself;
+- api.github.com/search/repositories?q=language:python&sort=stars
+
+-? allows you to searc repos
+-q Querries
+-=languange:  what you are looking for programming language.
+&sort what you want to do
+=stars
+
+HQ4K9MQQ99AMA3AM--> UDACITY Code Coupon.
+
+
+Solution:
+Step 1. Install python requests
+###########
+python -m pip -install requests
+###############
+Thus would enable us easily process API request and  to be able to use those request inside our python program.
+
+Step 2. 
+Write a program that prints out status code. Takes the information of the Key and store.
+NB:There are several HTML status code or rsponse code that can be provided eg (200)
+-The respn we usually get is a json object for that we need ti store in a ditinary jason format. Thus wwe call. 
+
+Step 3;
+Look through the stored data to verify that its as expected.
+-Create another dictionary based on a key from the header "Item"
+-Select a repo and pull out the key/list ofitems in the repo
+
+Step 4;
+-From each repository pull out specific key values  [repo_name & stars] and display in a chart;
+- Adding more colors to data with ( Marker & Opacity)
+- Adding title font to title as well as axis in layout, 
+- Adding tickfont to axis
+
+Step 5;
+- Adding more information to our data from the repo. 
+(lables - owner and description)
+- Update you data for info to reflect by adding label as 'hovertext
+
+Step 6;
+- Plotly allow us to use html on txt, lets add links to x-axis of our chart.
+
+
+Tools 2:
+Using a web API to retrieve data from data sources (Hacker News)- A trusted and popular cycer security publication.
+
+
